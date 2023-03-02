@@ -61,7 +61,7 @@ export default function GPTProvider({ children }: GPTProviderProps) {
       },
       {
         role: 'assistant',
-        content: 'Hello! How can I assist you today?',
+        content: 'Hi there! How can I assist you with Klaviyo today?',
       },
     ],
   })
