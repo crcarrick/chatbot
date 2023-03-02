@@ -53,7 +53,7 @@ export default function ChatBot() {
       <div className={header}>
         <p>GPT-3.5-Turbo Assistant</p>
       </div>
-      <div className="flex flex-col flex-1 p-2 overflow-auto">
+      <div className="flex flex-col flex-1 justify-end p-2 overflow-auto">
         <div
           className="flex flex-col min-h-max overflow-y-scroll scrollbar-hide"
           ref={scrollRef}
